@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
   display: table;
   width: 100%;
   height: 100vh;
-  background: url(../img/hexagon-bg.jpg) top center;
+  background: url(../img/bi-10.jpg) top center;
   background-size: cover;
 }
 
@@ -603,7 +603,7 @@ section {
 /* Get Started Section
 --------------------------------*/
 #features {
-  background: #fff;
+  background: rgb(0, 0, 0);
   padding: 80px 0;
 }
 
@@ -675,7 +675,7 @@ section {
 /* Services Section
 --------------------------------*/
 #services {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(12, 0, 0, 0.9)), url("../img/bi-06.jpg") fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
@@ -889,7 +889,7 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #f7f8f9;
+  background: #000000;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -916,7 +916,7 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
+  background: rgb(0, 0, 0);
   border: 2px solid #ffc107;
 }
 
@@ -935,7 +935,7 @@ section {
   transition: all 0.2s;
   background-color: #f82249;
   border: 0;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 #buy-tickets .btn:hover {
@@ -952,6 +952,7 @@ section {
 # Schedule Section
 --------------------------------------------------------------*/
 #schedule {
+  background-color: #000000;
   padding: 60px 0 60px 0;
 }
 
@@ -972,7 +973,7 @@ section {
   border: none;
   border-radius: 50px;
   font-weight: 600;
-  background-color: #0e1b4d;
+  background-color: #a3b1eb;
   color: #fff;
   padding: 10px 20px;
 }
@@ -1004,6 +1005,7 @@ section {
   text-align: center;
   font-size: 18px;
   font-style: italic;
+  color: #fff;
   margin: 0 auto 30px auto;
 }
 
@@ -1018,19 +1020,22 @@ section {
 }
 
 #schedule .schedule-item {
-  border-bottom: 1px solid #cad4f6;
+  border-bottom: 1px solid #ededf0;
   padding-top: 15px;
   padding-bottom: 15px;
   transition: background-color ease-in-out 0.3s;
+  color: rgb(177, 191, 238);
 }
 
 #schedule .schedule-item:hover {
-  background-color: #f6f7fd;
+  background-color: rgb(81, 118, 238);
+  color:#060c22;
 }
 
 #schedule .schedule-item time {
   padding-bottom: 5px;
   display: inline-block;
+  
 }
 
 #schedule .schedule-item .speaker {
@@ -1057,14 +1062,14 @@ section {
 
 #schedule .schedule-item h4 span {
   font-style: italic;
-  color: #19328e;
+  color: #e0e4f0;
   font-weight: normal;
   font-size: 16px;
 }
 
 #schedule .schedule-item p {
   font-style: italic;
-  color: #152b79;
+  color: #d6dae9;
   margin-bottom: 0;
 }
 /*--------------------------------------------------------------
@@ -1196,7 +1201,7 @@ section {
 
 #hotels .hotel {
   border: 1px solid #e0e5fa;
-  background: #fff;
+  background: rgb(0, 0, 0);
   margin-bottom: 30px;
 }
 
@@ -1292,7 +1297,7 @@ section {
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
-  background: #fff;
+  background: rgb(0, 0, 0);
   padding: 80px 0;
 }
 
